@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* App.css */
+.player-list {
+  display: flex;
+  flex-wrap: nowrap; /* Prevent card wrapping to a new line */
+  overflow-x: auto; /* Add horizontal scrolling if necessary */
+  margin: 200px; /* Remove spacing between cards */
+  border: solid 1px ;
+  border-radius: 20px ;
+  
+}
+
+.player-cards {
+  flex: 0 0 auto; /* Ensure cards don't grow to fill available space */
+  margin: 8px; /* Add spacing between cards */
+}
